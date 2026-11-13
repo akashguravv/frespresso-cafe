@@ -1,0 +1,205 @@
+{
+  "_note": "Site content. Edit here, then run: node tools/build.js. Items with price_inr null show as Ask in cafe.",
+  "business": {
+    "name": "Frespresso Cafe & Resto",
+    "since": 2017,
+    "type": "Entertainment cafe",
+    "city": "Solapur, Maharashtra, India",
+    "address": "Ground Floor, Orchid Complex, 70, Station Rd, opp. Mayor's Bungalow, Railway Lines, Solapur, Maharashtra 413001",
+    "phone_display": "+91 788 732 3311",
+    "phone_tel": "+917887323311",
+    "instagram": "@frespressosolapur",
+    "instagram_url": "https://instagram.com/frespressosolapur",
+    "hours": "Open daily, hours to be confirmed",
+    "price_per_person": "Rs. 200 to 400",
+    "swiggy_url": "TBD",
+    "google_maps_url": "https://www.google.com/maps/search/?api=1&query=Frespresso+Cafe+%26+Resto%2C+Station+Rd%2C+Solapur",
+    "google_review_url": "TBD"
+  },
+  "ratings": [
+    {
+      "platform": "Google",
+      "score": 4.1,
+      "count": "about 1,300 reviews"
+    },
+    {
+      "platform": "Swiggy",
+      "score": 4.2
+    },
+    {
+      "platform": "Justdial",
+      "score": 4
+    }
+  ],
+  "ratings_as_of": "November 2026",
+  "review_themes": [
+    {
+      "icon": "sofa",
+      "title": "Ambience & seating"
+    },
+    {
+      "icon": "coffee",
+      "title": "Strong coffee"
+    },
+    {
+      "icon": "bag",
+      "title": "Late-night takeaway"
+    },
+    {
+      "icon": "dice",
+      "title": "Games & hangouts"
+    }
+  ],
+  "nav": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "About",
+      "path": "/about"
+    },
+    {
+      "label": "Menu",
+      "path": "/menu"
+    },
+    {
+      "label": "Experience",
+      "path": "/experience"
+    },
+    {
+      "label": "Gallery",
+      "path": "/gallery"
+    },
+    {
+      "label": "Reviews",
+      "path": "/reviews"
+    },
+    {
+      "label": "Contact",
+      "path": "/contact"
+    }
+  ],
+  "menu": [
+    {
+      "id": "coffee",
+      "label": "Coffee",
+      "items": [
+        {
+          "name": "Cafe Mocha",
+          "description": "Espresso, chocolate and steamed milk.",
+          "price_inr": 180
+        },
+        {
+          "name": "Cafe Latte",
+          "description": "Espresso with silky steamed milk.",
+          "price_inr": 170
+        },
+        {
+          "name": "Frappe Frespresso",
+          "description": "Our house cold coffee, blended and frothy.",
+          "price_inr": 160
+        }
+      ]
+    },
+    {
+      "id": "shakes-coolers",
+      "label": "Shakes and Coolers",
+      "items": [
+        {
+          "name": "Blue Valley Mojito",
+          "description": "A chilled, fizzy blue cooler with mint and lime.",
+          "price_inr": 160
+        }
+      ]
+    },
+    {
+      "id": "bites",
+      "label": "Bites",
+      "items": [
+        {
+          "name": "Peri Peri Fries",
+          "description": "Crispy fries tossed in peri peri spice.",
+          "price_inr": 170
+        },
+        {
+          "name": "Cheese Garlic Bread",
+          "description": "Toasted bread, garlic butter, melted cheese.",
+          "price_inr": 170
+        }
+      ]
+    },
+    {
+      "id": "sandwiches-burgers",
+      "label": "Sandwiches and Burgers",
+      "items": [
+        {
+          "name": "Tandoori Paneer Grilled Sandwich",
+          "description": "Smoky tandoori paneer, grilled till golden.",
+          "price_inr": 160
+        },
+        {
+          "name": "Aloo Tikki Burger",
+          "description": "Crisp potato patty with fresh veggies.",
+          "price_inr": 120
+        }
+      ]
+    },
+    {
+      "id": "pizza-pasta",
+      "label": "Pizza and Pasta",
+      "items": [
+        {
+          "name": "Mexican Pizza",
+          "description": "",
+          "price_inr": null
+        },
+        {
+          "name": "White Sauce Pasta",
+          "description": "",
+          "price_inr": null
+        }
+      ]
+    },
+    {
+      "id": "waffles",
+      "label": "Waffles",
+      "items": [
+        {
+          "name": "Naughty Nutella Waffle",
+          "description": "Warm waffle loaded with Nutella.",
+          "price_inr": 240
+        },
+        {
+          "name": "Triple Chocolate Waffle",
+          "description": "Three kinds of chocolate on a warm waffle.",
+          "price_inr": 250
+        }
+      ]
+    },
+    {
+      "id": "sundaes-desserts",
+      "label": "Sundaes and Desserts",
+      "items": [
+        {
+          "name": "Butterscotch Dynasty Sundae",
+          "description": "Butterscotch ice cream, sauce and crunch.",
+          "price_inr": 200
+        },
+        {
+          "name": "Brownie Sunrise Sundae",
+          "description": "Warm brownie topped with ice cream.",
+          "price_inr": 220
+        }
+      ]
+    }
+  ],
+  "signature_items": [
+    "Cafe Mocha",
+    "Frappe Frespresso",
+    "Naughty Nutella Waffle",
+    "Blue Valley Mojito",
+    "Tandoori Paneer Grilled Sandwich",
+    "Brownie Sunrise Sundae"
+  ]
+}

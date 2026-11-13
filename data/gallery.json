@@ -1,0 +1,33 @@
+{
+  "_note": "Gallery items. Put photo and video files in assets/gallery/ (or assets/images/) and set 'file' to the file name. type is 'image' or 'video'; for a video, 'poster' is an optional thumbnail image. size is '', 'tall' or 'wide'. An item whose file is missing renders as a labelled placeholder. home_preview lists the item positions (starting at 0) shown on the Home page. Run: node tools/build.js after editing.",
+  "filters": [
+    { "id": "all", "label": "All" },
+    { "id": "interior", "label": "Interior" },
+    { "id": "coffee", "label": "Coffee & drinks" },
+    { "id": "food", "label": "Food" },
+    { "id": "desserts", "label": "Desserts" },
+    { "id": "games", "label": "Games & music" },
+    { "id": "videos", "label": "Videos" }
+  ],
+  "home_preview": [0, 1, 4, 8, 12, 10],
+  "items": [
+    { "type": "image", "label": "Latte art", "cat": "coffee", "size": "tall", "ph": "ph--caramel", "file": "coffe.webp" },
+    { "type": "image", "label": "Inside the cafe", "cat": "interior", "size": "wide", "ph": "", "file": "cafe-look.webp" },
+    { "type": "video", "label": "Cafe walkthrough video", "cat": "interior", "size": "", "file": "video-1.mp4", "poster": "video-1.jpg" },
+    { "type": "image", "label": "Seating area", "cat": "interior", "size": "", "ph": "", "file": "cafe-interior.jpg" },
+    { "type": "image", "label": "Blue Valley Mojito", "cat": "coffee", "size": "", "ph": "ph--caramel", "file": "matcha2.jpg" },
+    { "type": "image", "label": "Coffee, freshly served", "cat": "coffee", "size": "", "ph": "ph--caramel", "file": "coffe-video.jpg" },
+    { "type": "image", "label": "Frappe Frespresso", "cat": "coffee", "size": "", "ph": "ph--caramel", "file": "cold-coffe.jpg" },
+    { "type": "image", "label": "Mint cooler", "cat": "coffee", "size": "", "ph": "ph--caramel", "file": "matcha.jpg" },
+    { "type": "image", "label": "White Sauce Pasta", "cat": "food", "size": "", "ph": "", "file": "pasta.jpg" },
+    { "type": "image", "label": "Fries", "cat": "food", "size": "", "ph": "", "file": "starter.jpg" },
+    { "type": "image", "label": "Sizzling brownie", "cat": "desserts", "size": "", "ph": "ph--caramel", "file": "vedio.jpg" },
+    { "type": "image", "label": "Sundae", "cat": "desserts", "size": "", "ph": "ph--caramel", "file": "unnamed.jpg" },
+    { "type": "image", "label": "Chocolate waffle", "cat": "desserts", "size": "", "ph": "ph--caramel", "file": "waffel.jpg" },
+    { "type": "image", "label": "Shake with whipped cream", "cat": "coffee", "size": "", "ph": "ph--caramel", "file": "ice-cream.webp" },
+    { "type": "video", "label": "Coffee pour video", "cat": "coffee", "size": "", "file": "video-2.mp4", "poster": "video-2.jpg" },
+    { "type": "image", "label": "Board games", "cat": "games", "size": "", "ph": "ph--green", "file": "board-games.jpg" },
+    { "type": "image", "label": "Guitar corner", "cat": "games", "size": "", "ph": "ph--green", "file": "guitar-corner.jpg" },
+    { "type": "image", "label": "Book shelf", "cat": "games", "size": "", "ph": "ph--green", "file": "book-shelf.jpg" }
+  ]
+}

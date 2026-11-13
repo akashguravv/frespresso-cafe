@@ -1,0 +1,13 @@
+{
+  "_note": "Guest testimonials shown on the Home and Reviews pages. Texts are excerpts from Google reviews supplied by the site owner; spelling and spacing were tidied and an ellipsis marks omitted text. Set rating to the review's overall star value (1 to 5) to show stars, or leave it null to hide them. Leave name empty to show the default label, or add the guest's name only with their consent. Run: node tools/build.js after editing.",
+  "source_label": "Google review",
+  "default_name": "Google reviewer",
+  "items": [
+    { "name": "", "rating": 5, "date": "2026", "text": "Everything was good, clean and hygienic. Ambience was too good! Serving and order taking was also perfect." },
+    { "name": "", "rating": 5, "date": "2022", "text": "One of the best cafes in Solapur city. Excellent place. Beautiful interior and seating arrangement. Very yummy food and nice service." },
+    { "name": "", "rating": 5, "date": "2023", "text": "Loved the ambience of this cafe. Rates are reasonable. Food is good for sure. Coffee lovers can surely give this place a try, they have a variety of it." },
+    { "name": "", "rating": 5, "date": "2024", "text": "Had Manchurian and fries. Both were crispy and tasty. … Service was quick and there was a good crowd. Owner was receptive of feedback." },
+    { "name": "", "rating": 4, "date": "2024", "text": "The ambiance is cozy and nice, perfect for visiting with family and friends. I tried the triple chocolate waffle with ice cream; it was freshly baked and tasted good." },
+    { "name": "", "rating": 4, "date": "2026", "text": "Ambiance is good, taste is good. A little expensive, but the taste compensates for it." }
+  ]
+}

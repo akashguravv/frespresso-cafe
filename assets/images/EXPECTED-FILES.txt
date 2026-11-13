@@ -1,0 +1,29 @@
+Drop a photo here with one of these names (.jpg, .jpeg, .png or .webp) and run "node tools/build.js".
+The matching placeholder on the site is replaced automatically.
+
+aloo-tikki-burger.jpg
+blue-valley-mojito.jpg
+board-games-photo.jpg
+board-games-table.jpg
+board-games.jpg
+book-shelf-photo.jpg
+book-shelf.jpg
+brownie-sunrise-sundae.jpg
+butterscotch-dynasty-sundae.jpg
+cafe-interior-seating.jpg
+cafe-latte.jpg
+cafe-mocha.jpg
+celebration-table-photo.jpg
+celebration-table.jpg
+cheese-garlic-bread.jpg
+coffee-and-food.jpg
+frappe-frespresso.jpg
+guitar-corner-photo.jpg
+guitar-corner.jpg
+interior-photo-hero-slow-zoom.jpg
+mexican-pizza.jpg
+naughty-nutella-waffle.jpg
+peri-peri-fries.jpg
+tandoori-paneer-grilled-sandwich.jpg
+triple-chocolate-waffle.jpg
+white-sauce-pasta.jpg

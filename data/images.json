@@ -1,0 +1,14 @@
+{
+  "_note": "Maps a placeholder (its label written in lower case with hyphens, as listed in assets/images/EXPECTED-FILES.txt) to a file in assets/images/. A file named exactly after the placeholder also works without an entry here. Run: node tools/build.js after editing.",
+  "map": {
+    "interior-photo-hero-slow-zoom": "cafe-look.webp",
+    "cafe-interior-seating": "cafe-look.webp",
+    "coffee-and-food": "coffe.webp",
+    "cafe-latte": "coffe.webp",
+    "frappe-frespresso": "cold-coffe.jpg",
+    "blue-valley-mojito": "matcha2.jpg",
+    "peri-peri-fries": "starter.jpg",
+    "white-sauce-pasta": "pasta.jpg",
+    "triple-chocolate-waffle": "waffel.jpg"
+  }
+}

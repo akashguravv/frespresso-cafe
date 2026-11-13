@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Frespresso logo component</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="../assets/frespresso.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<span style="display: inline-flex; align-items: center; gap: {{gap}}; flex-direction: {{dir}}; text-align: {{align}}; line-height: 1; font-family: Fraunces, Georgia, serif" role="img" aria-label="Frespresso Cafe &amp; Resto">
+  <svg width="{{iconPx}}" height="{{iconPx}}" viewBox="0 0 64 64" aria-hidden="true" style="flex: none; overflow: visible">
+    <path d="M21 23c-3-3.5 3-6 0-10" stroke="{{steam}}" stroke-width="3.5" fill="none" stroke-linecap="round" class="fx-steam"></path>
+    <path d="M31 28C24 21 26 9 39 5c4 10 1 19-8 23z" fill="{{leaf}}"></path>
+    <path d="M12 31h36v7c0 8.3-6.7 15-15 15h-6c-8.3 0-15-6.7-15-15z" fill="{{cup}}"></path>
+    <path d="M48 35h2.5a6.5 6.5 0 0 1 0 13H46" stroke="{{cup}}" stroke-width="4" fill="none"></path>
+    <path d="M10 58h40" stroke="{{cup}}" stroke-width="4" stroke-linecap="round"></path>
+  </svg>
+  <sc-if value="{{showWord}}" hint-placeholder-val="{{ true }}">
+    <span style="display: flex; flex-direction: column; gap: {{subGap}}">
+      <span style="font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: {{wordPx}}; letter-spacing: -0.02em; color: {{word}}; white-space: nowrap">Frespresso</span>
+      <span style="font-family: Inter, system-ui, sans-serif; font-weight: 600; font-size: {{subPx}}; letter-spacing: 0.3em; color: {{sub}}; white-space: nowrap; padding-left: {{subPad}}">CAFE &amp; RESTO</span>
+    </span>
+  </sc-if>
+</span>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"variant":{"editor":"enum","options":["horizontal","stacked","icon"],"default":"horizontal"},"tone":{"editor":"enum","options":["color","reversed","mono","mono-light"],"default":"color"},"size":{"editor":"int","min":16,"max":400,"default":48,"unit":"px"},"$preview":{"width":520,"height":220}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const variant = this.props.variant ?? 'horizontal';
+    const tone = this.props.tone ?? 'color';
+    const size = Number(this.props.size ?? 48);
+    const T = {
+      'color':      { cup: '#2B1B14', leaf: '#3F7D58', steam: '#C8853B', word: '#2B1B14', sub: '#8E5419' },
+      'reversed':   { cup: '#FAF3E7', leaf: '#8CC3A0', steam: '#C8853B', word: '#FAF3E7', sub: '#C8853B' },
+      'mono':       { cup: '#2B1B14', leaf: '#2B1B14', steam: '#2B1B14', word: '#2B1B14', sub: '#2B1B14' },
+      'mono-light': { cup: '#FAF3E7', leaf: '#FAF3E7', steam: '#FAF3E7', word: '#FAF3E7', sub: '#FAF3E7' }
+    }[tone] || {};
+    const stacked = variant === 'stacked';
+    const wordSize = stacked ? size * 0.46 : size * 0.6;
+    return {
+      ...T,
+      iconPx: size,
+      showWord: variant !== 'icon',
+      dir: stacked ? 'column' : 'row',
+      align: stacked ? 'center' : 'left',
+      gap: (stacked ? size * 0.22 : size * 0.24) + 'px',
+      wordPx: wordSize + 'px',
+      subPx: Math.max(9, wordSize * 0.27) + 'px',
+      subGap: Math.max(4, wordSize * 0.16) + 'px',
+      subPad: stacked ? '0.3em' : '2px'
+    };
+  }
+}
+</script>
+</body>
+</html>

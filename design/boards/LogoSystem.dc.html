@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Frespresso — Final logo system</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="../assets/frespresso.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div class="fx-root" style="width: 1440px; height: 2100px; padding: 72px 80px; display: flex; flex-direction: column; gap: 44px">
+  <div style="display: flex; flex-direction: column; gap: 14px; max-width: 860px">
+    <p class="fx-eyebrow">Step 1 · Final system · Direction A “Leaf Steam”</p>
+    <h1 class="fx-h1" style="font-size: 56px">One mark, three lockups, three colourways</h1>
+    <p class="fx-lead">Wordmark set in Fraunces SemiBold, sub-line in Inter SemiBold at 30% tracking. Outline all text before exporting SVG, PNG and ICO files.</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 180px repeat(3, minmax(0, 1fr)); gap: 16px; align-items: stretch">
+    <div></div>
+    <p class="fx-small" style="font-weight: 600; color: #2B1B14">Full colour on cream</p>
+    <p class="fx-small" style="font-weight: 600; color: #2B1B14">Reversed on espresso</p>
+    <p class="fx-small" style="font-weight: 600; color: #2B1B14">Single colour</p>
+
+    <div style="display: flex; flex-direction: column; justify-content: center; gap: 6px"><h3 class="fx-h4">Horizontal</h3><p class="fx-small">Header (desktop, tablet)</p></div>
+    <div style="background: #FAF3E7; border: 1px solid #E2D5C0; border-radius: 20px; height: 220px; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="horizontal" tone="color" size="64" hint-size="300px,64px"></dc-import></div>
+    <div style="background: #2B1B14; border-radius: 20px; height: 220px; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="horizontal" tone="reversed" size="64" hint-size="300px,64px"></dc-import></div>
+    <div style="background: #FFFDF9; border: 1px solid #E2D5C0; border-radius: 20px; height: 220px; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="horizontal" tone="mono" size="64" hint-size="300px,64px"></dc-import></div>
+
+    <div style="display: flex; flex-direction: column; justify-content: center; gap: 6px"><h3 class="fx-h4">Stacked</h3><p class="fx-small">Footer, hero, loading screen</p></div>
+    <div style="background: #FAF3E7; border: 1px solid #E2D5C0; border-radius: 20px; height: 300px; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="stacked" tone="color" size="96" hint-size="220px,190px"></dc-import></div>
+    <div style="background: #2B1B14; border-radius: 20px; height: 300px; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="stacked" tone="reversed" size="96" hint-size="220px,190px"></dc-import></div>
+    <div style="background: #FFFDF9; border: 1px solid #E2D5C0; border-radius: 20px; height: 300px; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="stacked" tone="mono" size="96" hint-size="220px,190px"></dc-import></div>
+
+    <div style="display: flex; flex-direction: column; justify-content: center; gap: 6px"><h3 class="fx-h4">Icon only</h3><p class="fx-small">Favicon, mobile header, social avatar</p></div>
+    <div style="background: #FAF3E7; border: 1px solid #E2D5C0; border-radius: 20px; height: 220px; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="icon" tone="color" size="120" hint-size="120px,120px"></dc-import></div>
+    <div style="background: #2B1B14; border-radius: 20px; height: 220px; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="icon" tone="reversed" size="120" hint-size="120px,120px"></dc-import></div>
+    <div style="background: #FFFDF9; border: 1px solid #E2D5C0; border-radius: 20px; height: 220px; display: flex; align-items: center; justify-content: center; gap: 32px"><dc-import name="Logo" variant="icon" tone="mono" size="120" hint-size="120px,120px"></dc-import><div style="background: #2B1B14; border-radius: 16px; padding: 14px; display: flex"><dc-import name="Logo" variant="icon" tone="mono-light" size="64" hint-size="64px,64px"></dc-import></div></div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1.15fr 1fr 1fr; gap: 24px">
+    <div style="background: #FFFDF9; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 6px 16px rgba(43,27,20,.07)">
+      <h3 class="fx-h4">Favicon &amp; browser tab</h3>
+      <div style="background: #E9DCC6; border-radius: 14px 14px 0 0; padding: 10px 10px 0; display: flex">
+        <div style="background: #FAF3E7; border-radius: 10px 10px 0 0; padding: 10px 16px; display: flex; align-items: center; gap: 10px; width: 300px"><dc-import name="Logo" variant="icon" tone="color" size="16" hint-size="16px,16px"></dc-import><span style="font-size: 13px; color: #1E1E1E">Frespresso Cafe &amp; Resto</span></div>
+      </div>
+      <div style="display: flex; align-items: flex-end; gap: 24px">
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><dc-import name="Logo" variant="icon" tone="color" size="48" hint-size="48px,48px"></dc-import><span class="fx-mono" style="color: #5E5048">48</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><dc-import name="Logo" variant="icon" tone="color" size="32" hint-size="32px,32px"></dc-import><span class="fx-mono" style="color: #5E5048">32</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><dc-import name="Logo" variant="icon" tone="color" size="16" hint-size="16px,16px"></dc-import><span class="fx-mono" style="color: #5E5048">16</span></div>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="width: 60px; height: 60px; border-radius: 14px; background: #2B1B14; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="icon" tone="reversed" size="40" hint-size="40px,40px"></dc-import></div><span class="fx-mono" style="color: #5E5048">apple-touch 180</span></div>
+      </div>
+      <p class="fx-small">At 16 px the steam wisp may be dropped; cup, handle and leaf stay. Export favicon.ico (16/32/48), favicon.svg and apple-touch-icon.png.</p>
+    </div>
+    <div style="background: #FFFDF9; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 6px 16px rgba(43,27,20,.07)">
+      <h3 class="fx-h4">Social avatar</h3>
+      <div style="display: flex; align-items: center; gap: 24px">
+        <div style="width: 150px; height: 150px; border-radius: 50%; background: #FAF3E7; border: 1px solid #E2D5C0; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="icon" tone="color" size="96" hint-size="96px,96px"></dc-import></div>
+        <div style="width: 96px; height: 96px; border-radius: 50%; background: #2B1B14; display: flex; align-items: center; justify-content: center"><dc-import name="Logo" variant="icon" tone="reversed" size="60" hint-size="60px,60px"></dc-import></div>
+      </div>
+      <p class="fx-small">Icon centred at 64% of the circle. Instagram @frespressosolapur profile picture.</p>
+    </div>
+    <div style="background: #FFFDF9; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 6px 16px rgba(43,27,20,.07)">
+      <h3 class="fx-h4">Clear space &amp; minimums</h3>
+      <div style="align-self: center; padding: 28px; border: 1.5px dashed #C8853B; border-radius: 12px; background: #FAF3E7"><dc-import name="Logo" variant="horizontal" tone="color" size="48" hint-size="230px,48px"></dc-import></div>
+      <ul class="fx-small" style="margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px">
+        <li>Clear space = height of the cup on every side.</li>
+        <li>Horizontal lockup: min 120 px wide. Stacked: min 96 px.</li>
+        <li>Icon: min 16 px. Never recolour the leaf caramel or add effects.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1.6fr 1fr; gap: 24px">
+    <div style="background: #FFFDF9; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 16px; box-shadow: 0 6px 16px rgba(43,27,20,.07)">
+      <div style="display: flex; justify-content: space-between; align-items: center"><h3 class="fx-h4">Social sharing image · 1200 × 630 (og:image)</h3><span class="fx-tag">Shown at 50%</span></div>
+      <div style="width: 600px; height: 315px; border-radius: 12px; background: #2B1B14; position: relative; overflow: hidden; display: flex; align-items: center; padding: 40px; gap: 32px">
+        <div style="position: absolute; right: -60px; bottom: -70px; opacity: .08"><dc-import name="Logo" variant="icon" tone="mono-light" size="340" hint-size="340px,340px"></dc-import></div>
+        <div style="position: relative; display: flex; flex-direction: column; gap: 18px">
+          <dc-import name="Logo" variant="horizontal" tone="reversed" size="52" hint-size="250px,52px"></dc-import>
+          <p style="margin: 0; font: 600 28px/1.15 Fraunces; color: #FAF3E7; max-width: 380px">Coffee, games and good company on Station Road, Solapur.</p>
+          <p style="margin: 0; font: 500 14px/1 Inter; color: #D9CBB5">Since 2017 · @frespressosolapur</p>
+        </div>
+      </div>
+    </div>
+    <div style="background: #FFFDF9; border-radius: 24px; padding: 28px; display: flex; gap: 20px; box-shadow: 0 6px 16px rgba(43,27,20,.07)">
+      <div style="display: flex; flex-direction: column; gap: 12px; flex: 1">
+        <h3 class="fx-h4">Loading screen</h3>
+        <p class="fx-small">Stacked lockup, steam wisp rises on a 1.6 s loop, caramel bar indeterminate. Fades out after first paint (max 1.2 s).</p>
+      </div>
+      <div class="fx-loader" style="width: 200px; height: 380px; border-radius: 22px; border: 1px solid #E2D5C0; flex: none">
+        <dc-import name="Logo" variant="stacked" tone="color" size="64" hint-size="140px,130px"></dc-import>
+        <div class="fx-loader__bar"><span></span></div>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2100}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

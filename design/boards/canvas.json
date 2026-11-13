@@ -1,0 +1,473 @@
+{
+ "v": 3,
+ "createdOnFiles": {
+  "v": 1,
+  "at": "2026-11-13T09:00:00Z"
+ },
+ "title": "Frespresso Cafe & Resto \u2014 Website Design",
+ "launch": {
+  "view": "canvas",
+  "page": "brand"
+ },
+ "pages": [
+  {
+   "id": "brand",
+   "name": "Logo"
+  },
+  {
+   "id": "system",
+   "name": "Design system"
+  },
+  {
+   "id": "home",
+   "name": "Home"
+  },
+  {
+   "id": "about",
+   "name": "About"
+  },
+  {
+   "id": "menu",
+   "name": "Menu"
+  },
+  {
+   "id": "experience",
+   "name": "Experience"
+  },
+  {
+   "id": "gallery",
+   "name": "Gallery"
+  },
+  {
+   "id": "reviews",
+   "name": "Reviews"
+  },
+  {
+   "id": "contact",
+   "name": "Contact"
+  }
+ ],
+ "boards": {
+  "Main.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 1180,
+   "page": "brand",
+   "title": "Step 1 \u00b7 Logo directions"
+  },
+  "LogoSystem.dc.html": {
+   "x": 1520,
+   "y": 0,
+   "w": 1440,
+   "h": 2100,
+   "page": "brand",
+   "title": "Step 1 \u00b7 Final logo system (Direction A)"
+  },
+  "Logo.dc.html": {
+   "x": 3040,
+   "y": 0,
+   "w": 520,
+   "h": 220,
+   "page": "brand",
+   "title": "Component \u00b7 Logo"
+  },
+  "DesignSystem.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 2280,
+   "page": "system",
+   "title": "Step 2 \u00b7 Tokens & type"
+  },
+  "Components.dc.html": {
+   "x": 1520,
+   "y": 0,
+   "w": 1440,
+   "h": 3560,
+   "page": "system",
+   "title": "Step 2 \u00b7 Components"
+  },
+  "Motion.dc.html": {
+   "x": 3040,
+   "y": 0,
+   "w": 1440,
+   "h": 1500,
+   "page": "system",
+   "title": "Motion notes"
+  },
+  "Header.dc.html": {
+   "x": 4560,
+   "y": 0,
+   "w": 1440,
+   "h": 100,
+   "page": "system",
+   "title": "Component \u00b7 Header"
+  },
+  "Footer.dc.html": {
+   "x": 4560,
+   "y": 220,
+   "w": 1440,
+   "h": 560,
+   "page": "system",
+   "title": "Component \u00b7 Footer"
+  },
+  "Home.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 5800,
+   "page": "home",
+   "title": "Home \u00b7 Desktop 1440",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Home-Tablet.dc.html": {
+   "x": 1520,
+   "y": 0,
+   "w": 768,
+   "h": 6900,
+   "page": "home",
+   "title": "Home \u00b7 Tablet 768",
+   "is_interactive": true
+  },
+  "Home-Mobile.dc.html": {
+   "x": 2368,
+   "y": 0,
+   "w": 375,
+   "h": 10400,
+   "page": "home",
+   "title": "Home \u00b7 Mobile 375",
+   "is_interactive": true
+  },
+  "About.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 3500,
+   "page": "about",
+   "title": "About \u00b7 Desktop 1440",
+   "expand": "fill"
+  },
+  "About-Tablet.dc.html": {
+   "x": 1520,
+   "y": 0,
+   "w": 768,
+   "h": 4100,
+   "page": "about",
+   "title": "About \u00b7 Tablet 768"
+  },
+  "About-Mobile.dc.html": {
+   "x": 2368,
+   "y": 0,
+   "w": 375,
+   "h": 6000,
+   "page": "about",
+   "title": "About \u00b7 Mobile 375"
+  },
+  "Menu.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 3900,
+   "page": "menu",
+   "title": "Menu \u00b7 Desktop 1440",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Menu-Tablet.dc.html": {
+   "x": 1520,
+   "y": 0,
+   "w": 768,
+   "h": 4700,
+   "page": "menu",
+   "title": "Menu \u00b7 Tablet 768",
+   "is_interactive": true
+  },
+  "Menu-Mobile.dc.html": {
+   "x": 2368,
+   "y": 0,
+   "w": 375,
+   "h": 5900,
+   "page": "menu",
+   "title": "Menu \u00b7 Mobile 375",
+   "is_interactive": true
+  },
+  "Experience.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 4100,
+   "page": "experience",
+   "title": "Experience \u00b7 Desktop 1440",
+   "expand": "fill"
+  },
+  "Experience-Tablet.dc.html": {
+   "x": 1520,
+   "y": 0,
+   "w": 768,
+   "h": 4100,
+   "page": "experience",
+   "title": "Experience \u00b7 Tablet 768"
+  },
+  "Experience-Mobile.dc.html": {
+   "x": 2368,
+   "y": 0,
+   "w": 375,
+   "h": 5600,
+   "page": "experience",
+   "title": "Experience \u00b7 Mobile 375"
+  },
+  "Gallery.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 3000,
+   "page": "gallery",
+   "title": "Gallery \u00b7 Desktop 1440",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Gallery-Tablet.dc.html": {
+   "x": 1520,
+   "y": 0,
+   "w": 768,
+   "h": 3800,
+   "page": "gallery",
+   "title": "Gallery \u00b7 Tablet 768",
+   "is_interactive": true
+  },
+  "Gallery-Mobile.dc.html": {
+   "x": 2368,
+   "y": 0,
+   "w": 375,
+   "h": 5600,
+   "page": "gallery",
+   "title": "Gallery \u00b7 Mobile 375",
+   "is_interactive": true
+  },
+  "Reviews.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 3100,
+   "page": "reviews",
+   "title": "Reviews \u00b7 Desktop 1440",
+   "expand": "fill"
+  },
+  "Reviews-Tablet.dc.html": {
+   "x": 1520,
+   "y": 0,
+   "w": 768,
+   "h": 3800,
+   "page": "reviews",
+   "title": "Reviews \u00b7 Tablet 768"
+  },
+  "Reviews-Mobile.dc.html": {
+   "x": 2368,
+   "y": 0,
+   "w": 375,
+   "h": 5300,
+   "page": "reviews",
+   "title": "Reviews \u00b7 Mobile 375"
+  },
+  "Contact.dc.html": {
+   "x": 0,
+   "y": 0,
+   "w": 1440,
+   "h": 3000,
+   "page": "contact",
+   "title": "Contact \u00b7 Desktop 1440",
+   "expand": "fill",
+   "is_interactive": true
+  },
+  "Contact-Tablet.dc.html": {
+   "x": 1520,
+   "y": 0,
+   "w": 768,
+   "h": 3500,
+   "page": "contact",
+   "title": "Contact \u00b7 Tablet 768",
+   "is_interactive": true
+  },
+  "Contact-Mobile.dc.html": {
+   "x": 2368,
+   "y": 0,
+   "w": 375,
+   "h": 4900,
+   "page": "contact",
+   "title": "Contact \u00b7 Mobile 375",
+   "is_interactive": true
+  }
+ },
+ "order": [
+  "Main.dc.html",
+  "LogoSystem.dc.html",
+  "Logo.dc.html",
+  "DesignSystem.dc.html",
+  "Components.dc.html",
+  "Motion.dc.html",
+  "Header.dc.html",
+  "Footer.dc.html",
+  "Home.dc.html",
+  "Home-Tablet.dc.html",
+  "Home-Mobile.dc.html",
+  "About.dc.html",
+  "About-Tablet.dc.html",
+  "About-Mobile.dc.html",
+  "Menu.dc.html",
+  "Menu-Tablet.dc.html",
+  "Menu-Mobile.dc.html",
+  "Experience.dc.html",
+  "Experience-Tablet.dc.html",
+  "Experience-Mobile.dc.html",
+  "Gallery.dc.html",
+  "Gallery-Tablet.dc.html",
+  "Gallery-Mobile.dc.html",
+  "Reviews.dc.html",
+  "Reviews-Tablet.dc.html",
+  "Reviews-Mobile.dc.html",
+  "Contact.dc.html",
+  "Contact-Tablet.dc.html",
+  "Contact-Mobile.dc.html"
+ ],
+ "notes": {
+  "t_home": {
+   "x": 0,
+   "y": -320,
+   "text": "Home page \u2014 desktop, tablet, mobile",
+   "kind": "title1",
+   "maxW": 2743,
+   "page": "home"
+  },
+  "t_about": {
+   "x": 0,
+   "y": -320,
+   "text": "About page \u2014 desktop, tablet, mobile",
+   "kind": "title1",
+   "maxW": 2743,
+   "page": "about"
+  },
+  "t_menu": {
+   "x": 0,
+   "y": -320,
+   "text": "Menu page \u2014 desktop, tablet, mobile",
+   "kind": "title1",
+   "maxW": 2743,
+   "page": "menu"
+  },
+  "t_experience": {
+   "x": 0,
+   "y": -320,
+   "text": "Experience page \u2014 desktop, tablet, mobile",
+   "kind": "title1",
+   "maxW": 2743,
+   "page": "experience"
+  },
+  "t_gallery": {
+   "x": 0,
+   "y": -320,
+   "text": "Gallery page \u2014 desktop, tablet, mobile",
+   "kind": "title1",
+   "maxW": 2743,
+   "page": "gallery"
+  },
+  "t_reviews": {
+   "x": 0,
+   "y": -320,
+   "text": "Reviews page \u2014 desktop, tablet, mobile",
+   "kind": "title1",
+   "maxW": 2743,
+   "page": "reviews"
+  },
+  "t_contact": {
+   "x": 0,
+   "y": -320,
+   "text": "Contact page \u2014 desktop, tablet, mobile",
+   "kind": "title1",
+   "maxW": 2743,
+   "page": "contact"
+  },
+  "t_brand": {
+   "x": 0,
+   "y": -320,
+   "text": "Frespresso \u2014 logo",
+   "kind": "title1",
+   "maxW": 3560,
+   "page": "brand"
+  },
+  "t_system": {
+   "x": 0,
+   "y": -320,
+   "text": "Frespresso \u2014 design system & components",
+   "kind": "title1",
+   "maxW": 6000,
+   "page": "system"
+  },
+  "m_home": {
+   "x": -520,
+   "y": 0,
+   "text": "Motion: hero text staggers in, background slow-zooms (12 s), watermark steam loops. Highlights + cards reveal-up with 80 ms stagger. Ratings count up. Header shrinks after 24 px scroll.",
+   "w": 400,
+   "page": "home",
+   "fill": "blue"
+  },
+  "m_about": {
+   "x": -520,
+   "y": 0,
+   "text": "Motion: sections reveal on scroll; stats count up on enter (2017 counts from 2000). Concept cards lift on hover.",
+   "w": 400,
+   "page": "about",
+   "fill": "blue"
+  },
+  "m_menu": {
+   "x": -520,
+   "y": 0,
+   "text": "Interactive: chips filter categories, search filters by name/description (empty state included). Chip bar sticks under the shrunk header. Pizza & Pasta items are placeholders until the cafe confirms them.",
+   "w": 400,
+   "page": "menu",
+   "fill": "blue"
+  },
+  "m_experience": {
+   "x": -520,
+   "y": 0,
+   "text": "Motion: alternating sections reveal; image zooms 1.05 on hover. Mobile stacks image above text.",
+   "w": 400,
+   "page": "experience",
+   "fill": "blue"
+  },
+  "m_gallery": {
+   "x": -520,
+   "y": 0,
+   "text": "Interactive: filter chips + tap a tile to open the lightbox (prev/next/close). Build: Esc closes, arrows navigate, swipe on mobile, focus trapped in dialog.",
+   "w": 400,
+   "page": "gallery",
+   "fill": "blue"
+  },
+  "m_reviews": {
+   "x": -520,
+   "y": 0,
+   "text": "No reviewer names or quotes: theme cards only. Rating numbers count up. Keep the 'ratings as of' date current.",
+   "w": 400,
+   "page": "reviews",
+   "fill": "blue"
+  },
+  "m_contact": {
+   "x": -520,
+   "y": 0,
+   "text": "Interactive: submit empty to see error states, fill valid data to see the success state with the logo. Hours text is an editable field (Tweaks).",
+   "w": 400,
+   "page": "contact",
+   "fill": "blue"
+  },
+  "m_system": {
+   "x": 4560,
+   "y": 900,
+   "text": "All class names live in frespresso.css (uploaded asset). Breakpoints are container queries on .fx-page so each frame previews at its own width; use @media (max-width:1100px / 640px) in production.",
+   "w": 420,
+   "page": "system",
+   "fill": "orange"
+  }
+ },
+ "designSystems": []
+}

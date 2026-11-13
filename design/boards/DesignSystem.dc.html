@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Frespresso — Tokens and type</title>
+<script src="./support.js"></script>
+<link rel="stylesheet" href="../assets/frespresso.css">
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+<style>body{margin:0}</style>
+</helmet>
+<div class="fx-root" style="width: 1440px; height: 2280px; padding: 72px 80px; display: flex; flex-direction: column; gap: 56px">
+  <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 40px">
+    <div style="display: flex; flex-direction: column; gap: 14px; max-width: 820px">
+      <p class="fx-eyebrow">Step 2 · Design system</p>
+      <h1 class="fx-h1" style="font-size: 56px">Warm, roomy, a little playful</h1>
+      <p class="fx-lead">Every token below lives as a CSS custom property in <span class="fx-mono" style="font-size: 16px">frespresso.css</span> (prefix <span class="fx-mono" style="font-size: 16px">--</span>, classes <span class="fx-mono" style="font-size: 16px">.fx-*</span>).</p>
+    </div>
+    <dc-import name="Logo" variant="horizontal" tone="color" size="56" hint-size="270px,56px"></dc-import>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 20px">
+    <h2 class="fx-h3">Colour</h2>
+    <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px">
+      <div class="fx-card" style="box-shadow: 0 6px 16px rgba(43,27,20,.07)"><div style="height: 120px; background: #2B1B14"></div><div style="padding: 18px 20px; display: flex; flex-direction: column; gap: 4px"><strong style="color: #2B1B14">Espresso</strong><span class="fx-mono" style="color: #5E5048">#2B1B14 · --espresso</span><span class="fx-small">Headings, primary buttons, footer. Cream on it 15.0:1</span></div></div>
+      <div class="fx-card" style="box-shadow: 0 6px 16px rgba(43,27,20,.07)"><div style="height: 120px; background: #FAF3E7; border-bottom: 1px solid #E2D5C0"></div><div style="padding: 18px 20px; display: flex; flex-direction: column; gap: 4px"><strong style="color: #2B1B14">Cream</strong><span class="fx-mono" style="color: #5E5048">#FAF3E7 · --cream</span><span class="fx-small">Page background. Variants #F3E8D6, #E9DCC6, card #FFFDF9</span></div></div>
+      <div class="fx-card" style="box-shadow: 0 6px 16px rgba(43,27,20,.07)"><div style="height: 120px; display: flex"><div style="flex: 1; background: #C8853B"></div><div style="width: 34%; background: #8E5419"></div></div><div style="padding: 18px 20px; display: flex; flex-direction: column; gap: 4px"><strong style="color: #2B1B14">Caramel accent</strong><span class="fx-mono" style="color: #5E5048">#C8853B · text #8E5419</span><span class="fx-small">Accent fills with espresso text 5.4:1. Caramel text on cream uses #8E5419 (5.6:1)</span></div></div>
+      <div class="fx-card" style="box-shadow: 0 6px 16px rgba(43,27,20,.07)"><div style="height: 120px; display: flex"><div style="flex: 1; background: #3F7D58"></div><div style="width: 34%; background: #2F6145"></div></div><div style="padding: 18px 20px; display: flex; flex-direction: column; gap: 4px"><strong style="color: #2B1B14">Fresh green</strong><span class="fx-mono" style="color: #5E5048">#3F7D58 · dark #2F6145</span><span class="fx-small">Logo leaf, icons. Text and green bands use #2F6145 (6.5:1)</span></div></div>
+      <div class="fx-card" style="box-shadow: 0 6px 16px rgba(43,27,20,.07)"><div style="height: 72px; background: #1E1E1E"></div><div style="padding: 16px 20px; display: flex; flex-direction: column; gap: 4px"><strong style="color: #2B1B14">Charcoal text</strong><span class="fx-mono" style="color: #5E5048">#1E1E1E · 15.1:1 on cream</span></div></div>
+      <div class="fx-card" style="box-shadow: 0 6px 16px rgba(43,27,20,.07)"><div style="height: 72px; background: #5E5048"></div><div style="padding: 16px 20px; display: flex; flex-direction: column; gap: 4px"><strong style="color: #2B1B14">Muted text</strong><span class="fx-mono" style="color: #5E5048">#5E5048 · 7.0:1 on cream</span></div></div>
+      <div class="fx-card" style="box-shadow: 0 6px 16px rgba(43,27,20,.07)"><div style="height: 72px; display: flex"><div style="flex: 1; background: #E2D5C0"></div><div style="flex: 1; background: #D9CBB5"></div><div style="flex: 1; background: #8CC3A0"></div></div><div style="padding: 16px 20px; display: flex; flex-direction: column; gap: 4px"><strong style="color: #2B1B14">Lines &amp; on-dark</strong><span class="fx-mono" style="color: #5E5048">#E2D5C0 · #D9CBB5 · #8CC3A0</span></div></div>
+      <div class="fx-card" style="box-shadow: 0 6px 16px rgba(43,27,20,.07)"><div style="height: 72px; display: flex"><div style="flex: 1; background: #B3261E"></div><div style="flex: 1; background: #2F6145"></div><div style="flex: 1; background: #C8853B"></div></div><div style="padding: 16px 20px; display: flex; flex-direction: column; gap: 4px"><strong style="color: #2B1B14">Feedback</strong><span class="fx-mono" style="color: #5E5048">error #B3261E · success #2F6145 · focus</span></div></div>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 40px">
+    <div style="display: flex; flex-direction: column; gap: 20px">
+      <h2 class="fx-h3">Type scale</h2>
+      <div style="background: #FFFDF9; border-radius: 24px; padding: 8px 28px; box-shadow: 0 6px 16px rgba(43,27,20,.07)">
+        <div style="display: grid; grid-template-columns: 1fr 190px; align-items: baseline; gap: 20px; padding: 20px 0; border-bottom: 1px solid #E2D5C0"><span class="fx-display" style="font-size: 64px">Since 2017</span><span class="fx-mono" style="color: #5E5048">Display · Fraunces 600<br>84 / 60 / 44 · lh 1.0</span></div>
+        <div style="display: grid; grid-template-columns: 1fr 190px; align-items: baseline; gap: 20px; padding: 20px 0; border-bottom: 1px solid #E2D5C0"><span class="fx-h1" style="font-size: 52px">Our <em>story</em></span><span class="fx-mono" style="color: #5E5048">H1 · Fraunces 600<br>60 / 46 / 38 · lh 1.05</span></div>
+        <div style="display: grid; grid-template-columns: 1fr 190px; align-items: baseline; gap: 20px; padding: 20px 0; border-bottom: 1px solid #E2D5C0"><span class="fx-h2">Signature picks</span><span class="fx-mono" style="color: #5E5048">H2 · Fraunces 600<br>44 / 36 / 30 · lh 1.1</span></div>
+        <div style="display: grid; grid-template-columns: 1fr 190px; align-items: baseline; gap: 20px; padding: 20px 0; border-bottom: 1px solid #E2D5C0"><span class="fx-h3">Board games on every table</span><span class="fx-mono" style="color: #5E5048">H3 · Fraunces 600<br>24 / 24 / 21</span></div>
+        <div style="display: grid; grid-template-columns: 1fr 190px; align-items: baseline; gap: 20px; padding: 20px 0; border-bottom: 1px solid #E2D5C0"><p class="fx-lead">Strong coffee, comfy seats and a guitar in the corner.</p><span class="fx-mono" style="color: #5E5048">Lead · Inter 400<br>20 / 18 / 17 · lh 1.6</span></div>
+        <div style="display: grid; grid-template-columns: 1fr 190px; align-items: baseline; gap: 20px; padding: 20px 0; border-bottom: 1px solid #E2D5C0"><p class="fx-body">Body copy sits in Inter at 16 px with a relaxed 1.65 line height for easy reading.</p><span class="fx-mono" style="color: #5E5048">Body · Inter 400<br>16 · lh 1.65</span></div>
+        <div style="display: grid; grid-template-columns: 1fr 190px; align-items: baseline; gap: 20px; padding: 20px 0"><p class="fx-eyebrow">Eyebrow label</p><span class="fx-mono" style="color: #5E5048">Eyebrow · Inter 600<br>13 · tracking .14em</span></div>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 20px">
+      <h2 class="fx-h3">Spacing, radius, shadow</h2>
+      <div style="background: #FFFDF9; border-radius: 24px; padding: 28px; box-shadow: 0 6px 16px rgba(43,27,20,.07); display: flex; flex-direction: column; gap: 14px">
+        <p class="fx-small" style="font-weight: 600; color: #2B1B14">Spacing (8-pt base)</p>
+        <div style="display: flex; align-items: flex-end; gap: 12px">
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="width: 8px; height: 8px; background: #C8853B; border-radius: 2px"></div><span class="fx-mono">8</span></div>
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="width: 16px; height: 16px; background: #C8853B; border-radius: 3px"></div><span class="fx-mono">16</span></div>
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="width: 24px; height: 24px; background: #C8853B; border-radius: 4px"></div><span class="fx-mono">24</span></div>
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="width: 32px; height: 32px; background: #C8853B; border-radius: 5px"></div><span class="fx-mono">32</span></div>
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="width: 48px; height: 48px; background: #C8853B; border-radius: 6px"></div><span class="fx-mono">48</span></div>
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="width: 64px; height: 64px; background: #C8853B; border-radius: 8px"></div><span class="fx-mono">64</span></div>
+          <div style="display: flex; flex-direction: column; align-items: center; gap: 6px"><div style="width: 80px; height: 80px; background: #C8853B; border-radius: 10px"></div><span class="fx-mono">80 · 112</span></div>
+        </div>
+        <p class="fx-small">Section padding 112 / 88 / 64 · card gap 24 / 24 / 16</p>
+        <p class="fx-small" style="font-weight: 600; color: #2B1B14; margin-top: 12px">Radius</p>
+        <div style="display: flex; gap: 14px">
+          <div style="width: 64px; height: 64px; border-radius: 10px; background: #E9DCC6; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 6px"><span class="fx-mono">10</span></div>
+          <div style="width: 64px; height: 64px; border-radius: 16px; background: #E9DCC6; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 6px"><span class="fx-mono">16</span></div>
+          <div style="width: 64px; height: 64px; border-radius: 24px; background: #E9DCC6; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 6px"><span class="fx-mono">24</span></div>
+          <div style="width: 64px; height: 64px; border-radius: 32px; background: #E9DCC6; display: flex; align-items: center; justify-content: center"><span class="fx-mono">32</span></div>
+          <div style="width: 96px; height: 44px; border-radius: 999px; background: #E9DCC6; display: flex; align-items: center; justify-content: center; align-self: center"><span class="fx-mono">pill</span></div>
+        </div>
+        <p class="fx-small" style="font-weight: 600; color: #2B1B14; margin-top: 12px">Shadow</p>
+        <div style="display: flex; gap: 20px">
+          <div style="flex: 1; height: 72px; border-radius: 16px; background: #FFFDF9; box-shadow: 0 1px 2px rgba(43,27,20,.06), 0 6px 16px rgba(43,27,20,.07); display: flex; align-items: center; justify-content: center"><span class="fx-mono">--sh-1 rest</span></div>
+          <div style="flex: 1; height: 72px; border-radius: 16px; background: #FFFDF9; box-shadow: 0 2px 6px rgba(43,27,20,.08), 0 18px 40px rgba(43,27,20,.14); display: flex; align-items: center; justify-content: center"><span class="fx-mono">--sh-2 hover</span></div>
+        </div>
+      </div>
+      <div style="background: #2B1B14; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+        <p style="margin: 0; font: 600 13px/1 Inter; letter-spacing: .14em; color: #C8853B">LAYOUT GRID</p>
+        <p style="margin: 0; color: #FAF3E7; font-size: 15px; line-height: 1.6">Desktop 1440: content 1200, 12 col, 24 gutter, 3–4 card columns.<br>Tablet 768: 32 margins, 2 columns.<br>Mobile 375: 16 margins, 1 column, touch targets ≥ 44 px.</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 20px">
+    <h2 class="fx-h3">Buttons</h2>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px">
+      <div style="background: #FFFDF9; border-radius: 24px; padding: 28px; box-shadow: 0 6px 16px rgba(43,27,20,.07); display: grid; grid-template-columns: 110px repeat(3, auto); gap: 16px 18px; align-items: center; justify-items: start">
+        <span></span><span class="fx-mono">Default</span><span class="fx-mono">Hover (lift 2px)</span><span class="fx-mono">Focus</span>
+        <span class="fx-small" style="font-weight: 600">Primary</span>
+        <a class="fx-btn fx-btn--primary" href="#">View Menu</a>
+        <a class="fx-btn fx-btn--primary" href="#" style="background: #4A3226; transform: translateY(-2px); box-shadow: 0 6px 16px rgba(43,27,20,.12)">View Menu</a>
+        <a class="fx-btn fx-btn--primary" href="#" style="outline: 3px solid #C8853B; outline-offset: 3px">View Menu</a>
+        <span class="fx-small" style="font-weight: 600">Secondary</span>
+        <a class="fx-btn fx-btn--secondary" href="#">Get Directions</a>
+        <a class="fx-btn fx-btn--secondary" href="#" style="background: #2B1B14; color: #FAF3E7">Get Directions</a>
+        <a class="fx-btn fx-btn--secondary" href="#" style="outline: 3px solid #C8853B; outline-offset: 3px">Get Directions</a>
+        <span class="fx-small" style="font-weight: 600">Accent</span>
+        <a class="fx-btn fx-btn--accent" href="#">Order on Swiggy</a>
+        <a class="fx-btn fx-btn--accent fx-btn--sm" href="#">Small · 44 px</a>
+        <a class="fx-btn fx-btn--primary is-disabled" href="#">Disabled</a>
+      </div>
+      <div style="background: #2B1B14; border-radius: 24px; padding: 28px; display: flex; flex-direction: column; gap: 20px">
+        <span class="fx-mono" style="color: #D9CBB5">On dark / hero</span>
+        <div style="display: flex; gap: 14px; flex-wrap: wrap">
+          <a class="fx-btn fx-btn--accent" href="#">View Menu</a>
+          <a class="fx-btn fx-btn--outline-light" href="#">Get Directions</a>
+          <a class="fx-btn fx-btn--light" href="#">Follow on Instagram</a>
+        </div>
+        <span class="fx-mono" style="color: #D9CBB5">Text link · Icon button</span>
+        <div style="display: flex; gap: 14px; align-items: center">
+          <a class="fx-link" href="#" style="color: #FAF3E7">See the full menu <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+          <button class="fx-iconbtn fx-iconbtn--dark" type="button" aria-label="Previous"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"></path></svg></button>
+          <button class="fx-iconbtn fx-iconbtn--dark" type="button" aria-label="Next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg></button>
+        </div>
+        <p style="margin: 0; color: #D9CBB5; font-size: 14px">Icons: 24 px stroke icons, 2 px stroke, round caps (e.g. Lucide). Never emoji.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2280}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
